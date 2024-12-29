@@ -13,7 +13,6 @@ with no current or deprecated usecase.
 | Keyword                 | Description |
 |-------------------------|:-----------:|
 | `alignas` (C++11)       |             |
-| `alignof` (C++11)       |             |
 | `and`                   |             |
 | `and_eq`                |             |
 | `asm`                   |             |
@@ -30,17 +29,14 @@ with no current or deprecated usecase.
 | `consteval` (C++20)     |             |
 | `constexpr` (C++11)     |             |
 | `constinit` (C++20)     |             |
-| `const_cast`            |             |
 | `continue`              |             |
 | `co_await` (C++20)      |             |
 | `co_return` (C++20)     |             |
 | `co_yield` (C++20)      |             |
 | `decltype` (C++11)      |             |
 | `default`               |             |
-| `delete`                |             |
 | `do`                    |             |
 | `double`                |             |
-| `dynamic_cast`          |             |
 | `else`                  |             |
 | `enum`                  |             |
 | `explicit`              |             |
@@ -55,7 +51,6 @@ with no current or deprecated usecase.
 | `inline`                |             |
 | `mutable`               |             |
 | `namespace`             |             |
-| `new`                   |             |
 | `noexcept` (C++11)      |             |
 | `not`                   |             |
 | `not_eq`                |             |
@@ -67,14 +62,12 @@ with no current or deprecated usecase.
 | `protected`             |             |
 | `public`                |             |
 | `register`              |             |
-| `reinterpret_cast`      |             |
 | `requires` (C++20)      |             |
 | `return`                |             |
 | `signed`                |             |
 | `sizeof`                |             |
 | `static`                |             |
 | `static_assert` (C++11) |             |
-| `static_cast`           |             |
 | `struct`                |             |
 | `switch`                |             |
 | `template`              |             |
@@ -84,7 +77,6 @@ with no current or deprecated usecase.
 | `true`                  |             |
 | `try`                   |             |
 | `typedef`               |             |
-| `typeid`                |             |
 | `typename`              |             |
 | `union`                 |             |
 | `unsigned`              |             |
