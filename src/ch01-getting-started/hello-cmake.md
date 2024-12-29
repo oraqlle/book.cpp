@@ -207,7 +207,8 @@ presets into the projects. There are also some hidden presets that are used to d
 settings across presets; for example, I have set the C++ standard to 20 for all presets
 by inheriting the `"std-cxx"` preset in the non-hidden platform presets. 
 [Listing 1-5](#listing1-5) demonstrates the commands needed to configure, build and run
-the executable target for each preset.
+the executable target for each preset. From now on in the book, I will assuming the use
+of presets for building C++.
 
 ```admonish note
 - You'll have to specify the build directory using the `-B` flag like it is shown in
@@ -220,7 +221,7 @@ handle exporting libraries.
 <span id="listing1-4" class="caption">Listing 1-4: Base `CMakePresets.json` for a single cross-platform executable target with compiler flags set.</span>
 
 ```json
-{{#include examples/guessing_game/CMakePresets.json}}
+{{#include ../ch02-guessing-game/CMakePresets.json}}
 ```
 
 <span id="listing1-5" class="caption">Listing 1-5: Commands for building with [Listing 1-4's](#listing1-4) presets.</span>
